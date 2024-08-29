@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cascadia Code' , sans-serif;
+}
+
+.App {
+  height: 100vh;
+  padding: 1rem;
+  background: #845afc;
+  display: flex;
+  justify-content: center;
+}
+
+.TodoWrapper {
+  width: 100%;
+  max-width: 30%;
+  min-height: 50%;
+  background: #1b1a41;
+  border-radius: 20px;
+  border: #845afc 1px solid;
+  padding: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin: 10rem;
+  text-align: center;
+}
+
+.TodoWrapper h1{
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.TodoForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  padding: 1rem 1rem;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+}
+
+.TodoForm input {
+  width: 70%;
+  padding: 0.9rem;
+  border: #845afc 1px solid;
+  background: transparent;
+  color: #fff;
+}
+
+.TodoForm input:focus {
+  outline: none;
+}
+
+.TodoForm button {
+  background: #845afc;
+  color: #fff;
+  padding: 0.9rem ;
+  border: #845afc 1px solid;
+  cursor: pointer;
+  width: 30%;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #845afc;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+}
